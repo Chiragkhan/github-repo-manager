@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GitHub Repository Manager
+Comment=Manage your GitHub repositories with an intuitive GUI
+Exec=/home/me333/github-repo-manager/launch.sh
+Icon=github
+Terminal=false
+Categories=Development;Network;
+StartupNotify=true
+Keywords=git;github;repository;version-control;development;
+StartupWMClass=github-repo-manager
